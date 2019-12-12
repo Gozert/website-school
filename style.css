@@ -4,15 +4,25 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: #EEEEEE;  
-    
+    background-image: url("achtergrond.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    border: 0px;
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1100px;
     position: relative;
 }
 
@@ -24,13 +34,20 @@ article {
 
 header {
     color: skyblue;
-    text-align: center;
+    text-align: center; 
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
+
 
 
 footer {
     text-align: center;
-    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 1100px;
+    color: skyblue;
 }
 
 
@@ -54,14 +71,32 @@ a:hover {
     text-decoration: underline;
 }
 
+div.spelmodus {
+    background-color: rgb(135,206,235,0.5);
+    float: right;
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    color: white;
+    margin: 30px;
+    padding: 15px;
+    clear: right;
+}
+
+div.spelmodus:hover {
+    background-color: #EE66EE;
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background: #dddddd;
     overflow: hidden;
+    
+    
+    
 }
 
 nav ul li {
@@ -70,10 +105,11 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 36px;
     text-decoration: none;
+    
 }
 
 nav li a:hover {
