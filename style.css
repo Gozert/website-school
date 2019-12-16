@@ -131,3 +131,10 @@ body.wapens{
     background-image: url("afbeeldingen/achtergrond wapens.jpg");
 }
 
+body.gamemodes{
+    background-image: url("afbeeldingen/achtergrond spelmodus.jpg");
+}
+
+body.geschiedenis{
+    background-image: url("afbeeldingen/achtergrond geschiedenis.jpg");
+}
