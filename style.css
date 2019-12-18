@@ -138,3 +138,11 @@ body.gamemodes{
 body.geschiedenis{
     background-image: url("afbeeldingen/achtergrond geschiedenis.jpg");
 }
+
+body.skins{
+    background-image: url("afbeeldingen/achtergrond skins.jpg");
+}
+
+body.operaties{
+    background-image: url("afbeeldingen/achtergrond operaties.jpg");
+}
