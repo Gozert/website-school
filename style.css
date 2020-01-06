@@ -22,7 +22,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 1100px;
+    width: 900px;
     position: relative;
 }
 
@@ -46,7 +46,7 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 1100px;
+    width: 900px;
     color: skyblue;
 }
 
@@ -94,6 +94,8 @@ nav ul {
     padding: 0;
     background: #dddddd;
     overflow: hidden;
+    
+    
     
     
     
