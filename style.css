@@ -10,18 +10,24 @@ html, body {
     background-repeat: no-repeat;
     padding: 0px;
     border: 0px;
-    color: #303030;
+    color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
+}
+
+@font-face{
+    font-family: "lettertype";
+    src: url("peacehouston.ttf");
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ;
 }
 
 main {
-    margin: 0 auto;
+    margin: 0 auto ;
     width: 900px;
     position: relative;
 }
@@ -29,11 +35,12 @@ main {
 
 article {
     text-align: justify;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 
 header {
-    color: skyblue;
     text-align: center; 
     font-size: 30px;
     padding-top: 30px;
@@ -47,8 +54,34 @@ footer {
     position: fixed;
     bottom: 0;
     width: 900px;
-    color: skyblue;
 }
+
+/* tekstkleuren*/
+
+.HomeTekst{
+    color: rgb(32, 90, 230)
+}
+
+.gamemodesTekst{
+    color: rgb(3, 171, 13);
+}
+
+.geschiedenisTekst{
+    color: rgb(207, 240, 79);
+}
+
+.wapensTekst{
+    color: rgb(94, 96, 143);
+}
+
+.skinsTekst{
+    color: rgb(14, 100, 199);
+}
+
+.operatiesTekst{
+    color: rgb(238, 109, 57);
+}
+
 
 
 /* specifieke stijlen */
@@ -63,7 +96,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(238, 109, 57);
     text-decoration: none;
 }
 
@@ -91,25 +124,86 @@ div.spelmodus:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    background: #dddddd;
+    padding: 0px;
     overflow: hidden;
-    
-    
-    
+    border-radius: 10px;
     
     
 }
 
 nav ul li {
     float: left;
+    
+    
+}
+
+/* navigatie kleuren*/
+
+nav.HomeNav li a {
+
+    background-color: rgb(62, 104, 201);
+}
+
+nav.HomeNav li a.active{
+
+    background-color: rgb(42, 68, 130);
+}
+
+nav.gamemodesNav li a {
+
+    background-color: rgb(9, 128, 17);
+}
+
+nav.gamemodesNav li a.active{
+
+    background-color: rgb(6, 92, 11);
+}
+
+nav.geschiedenisNav li a {
+
+    background-color: rgb(182, 222, 27);
+}
+
+nav.geschiedenisNav li a.active{
+
+    background-color: rgb(173, 217, 0);
+}
+
+nav.wapensNav li a {
+
+    background-color: rgb(103, 105, 143);
+}
+
+nav.wapensNav li a.active{
+
+    background-color: rgb(70, 71, 97);
+}
+
+nav.skinsNav li a {
+
+    background-color: rgb(21, 100, 191);
+}
+
+nav.skinsNav li a.active{
+
+    background-color: rgb(17, 80, 153);
+}
+
+nav.operatiesNav li a {
+
+    background-color: rgb(250, 170, 49);
+}
+
+nav.operatiesNav li a.active{
+
+    background-color: rgb(255, 0, 0);
 }
 
 nav li a {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 36px;
+    padding: 14px 45.7px;
     text-decoration: none;
     
 }
@@ -118,9 +212,7 @@ nav li a:hover {
     background-color: #aaaaaa;
 }
 
-nav li a.active {
-    background-color: skyblue;
-}
+
 
 
 /* achtergronden */
