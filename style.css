@@ -14,22 +14,23 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
-@font-face{
-    font-family: "lettertype";
-    src: url("peacehouston.ttf");
+@font-face {
+  font-family: "lettertype";
+  src: url("batmfa__.ttf");
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: "lettertype";
 }
 
 main {
     margin: 0 auto ;
     width: 900px;
     position: relative;
+    font-size: 20px;
 }
 
 
@@ -54,12 +55,25 @@ footer {
     position: fixed;
     bottom: 0;
     width: 900px;
+    margin-top: 5px;
 }
+
+.informatie{
+    overflow-y: auto;
+    position: fixed;
+    top: 200px;
+    bottom: 150px;
+    
+    width: 900px;
+}
+
+
+
 
 /* tekstkleuren*/
 
 .HomeTekst{
-    color: rgb(32, 90, 230)
+    color: rgb(32, 90, 230);
 }
 
 .gamemodesTekst{
@@ -82,7 +96,39 @@ footer {
     color: rgb(238, 109, 57);
 }
 
+/* tekstachtergronden */
 
+div.inhoud1 {
+    background-color: rgb(32, 90, 230,0.5);
+    border-radius: 25px;
+    padding: 10px
+}
+
+div.inhoud2 {
+    background-color: rgb(207, 240, 79,0.5);
+    border-radius: 25px;
+    padding: 10px
+}
+div.inhoud3 {
+    background-color: rgb(3, 171, 13,0.5);
+    border-radius: 25px;
+    padding: 10px
+}
+div.inhoud4 {
+    background-color: rgb(94, 96, 143,0.7);
+    border-radius: 25px;
+    padding: 10px
+}
+div.inhoud5 {
+    background-color: rgb(14, 100, 199,0.5);
+    border-radius: 25px;
+    padding: 10px
+}
+div.inhoud6 {
+    background-color: rgb(238, 109, 57,0.5);
+    border-radius: 25px;
+    padding: 10px
+}
 
 /* specifieke stijlen */
 
@@ -104,21 +150,8 @@ a:hover {
     text-decoration: underline;
 }
 
-div.spelmodus {
-    background-color: rgb(135,206,235,0.5);
-    float: right;
-    width: 300px;
-    height: 200px;
-    border-radius: 25px;
-    color: white;
-    margin: 30px;
-    padding: 15px;
-    clear: right;
-}
 
-div.spelmodus:hover {
-    background-color: #EE66EE;
-}
+
 
 /* navigatiebalk */
 nav ul {
@@ -203,9 +236,13 @@ nav li a {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 45.7px;
+    padding: 14px 13.75px;
     text-decoration: none;
-    
+    border-right: solid 3px;
+}
+
+#laatste{
+    border-right: 0px;
 }
 
 nav li a:hover {
